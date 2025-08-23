@@ -19,7 +19,7 @@ Bu loyiha mening shaxsiy Taskify loyiham bo‘lib, unda foydalanuvchilar takrorl
 
 ## 🔗 Demo
 
-👉 [Loyihani ko‘rish](https://github.com/samandar8283/taskify)
+👉 [Saytga tashrif buyurish](https://taskify-jas.web.app)
 
 ## 👨‍💻 Muallif
 
@@ -48,7 +48,7 @@ This is a Taskify project where users can create, manage, and track repeating ta
 
 ## 🔗 Demo
 
-👉 [View project](https://github.com/samandar8283/taskify)
+👉 [Visit website](https://taskify-jas.web.app)
 
 ## 👨‍💻 Author
 
