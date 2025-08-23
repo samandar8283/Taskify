@@ -1,0 +1,178 @@
+/* general */
+body {
+    background-color: rgb(8, 8, 34);
+}
+.same-styles {
+    border: 2px solid rgb(8, 156, 183);
+    border-radius: 24px;
+    min-width: 350px;
+    box-shadow: 0 0 10px 1px rgb(8, 156, 183);
+    margin: auto;
+}
+.same-styles button {
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+}
+.message {
+    position: fixed;
+    width: fit-content;
+    min-width: 320px;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+}
+.message .alert {
+    color: white;
+    font-weight: bold;
+}
+
+/* auth */
+.auth {
+    padding: 50px 20px;
+    max-width: 400px;
+}
+.auth-btn {
+    background-color: rgb(8, 156, 183);
+}
+.auth-btn:hover,
+.auth-btn:active,
+.auth-btn:disabled,
+.auth-btn:focus,
+.auth-btn:focus-visible,
+.auth .btn:first-child:active {
+    border-radius: 6px;
+    background-color: rgba(8, 156, 183, 0.8);
+    box-shadow: none;
+}
+.auth a {
+    color: rgb(8, 156, 183);
+}
+
+/* dashboard */
+.dashboard {
+    padding: 20px 20px 80px 20px;
+    min-height: 90vh;
+    margin: 60px auto;
+}
+.dashboard .btn-primary {
+    background-color: rgb(13, 110, 253);
+}
+.dashboard .btn-primary:active,
+.dashboard .btn-primary:hover,
+.dashboard .btn-primary:focus,
+.dashboard .btn-primary:focus-visible {
+    background-color: rgba(13, 110, 253, 0.8) !important;
+    border-radius: 6px !important;
+}
+.dashboard .btn-danger {
+    background-color: rgb(220, 53, 69);
+}
+.dashboard .btn-danger:active,
+.dashboard .btn-danger:hover,
+.dashboard .btn-danger:focus,
+.dashboard .btn-danger:focus-visible {
+    background-color: rgba(220, 53, 69, 0.8) !important;
+    border-radius: 6px !important;
+}
+.dashboard .btn-warning {
+    background-color: rgb(255, 193, 7);
+}
+.dashboard .btn-warning:active,
+.dashboard .btn-warning:hover,
+.dashboard .btn-warning:focus,
+.dashboard .btn-warning:focus-visible {
+    background-color: rgba(255, 193, 7, 0.8) !important;
+    border-radius: 6px !important;
+}
+
+/* addTask */
+.add-btn,
+.add-btn:active,
+.add-btn:focus,
+.add-btn:focus-visible,
+.add-btn:hover,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: rgb(8, 8, 34);
+}
+.task-modal-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    z-index: 10;
+}
+.task-modal {
+    width: 400px;
+    max-width: 90vw;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 16px;
+    padding: 30px 20px;
+}
+
+/* tasks */
+.btns {
+    min-width: 90px;
+}
+.task .btn:first-child:active,
+.task .btn:not(.btn-check)+.btn:active {
+    border-radius: 4px;
+}
+
+/* verify-email */
+.verify-email :not(.btn-check)+.btn:active {
+    border-radius: 6px;
+}
+.verify-email .btn-primary:active {
+    background-color: rgb(11, 94, 215);
+}
+.verify-email .btn-outline-danger:active {
+    background-color: rgb(220, 53, 69);
+}
+/* media queries */
+@media only screen and (max-width: 575.9px) {
+    .same-styles {
+        min-width: auto;
+    }
+    .auth {
+        max-width: 350px;
+    }
+    .dashboard {
+        max-width: 96%;
+        margin: 30px auto;
+    }
+    .d-inline-block-450 {
+        display: inline-block;
+    }
+    .d-block-450 {
+        display: block;
+        width: fit-content;
+    }
+    .d-block-400 {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 449.9px) {
+    .d-inline-block-450 {
+        display: block;
+    }
+    .d-block-450 {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 399.9px) {
+    .d-block-400 {
+        display: block;
+    }
+}
