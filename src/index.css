@@ -102,6 +102,9 @@ body {
     border-radius: 50%;
     background-color: rgb(8, 8, 34);
 }
+.add-btn:focus-visible {
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, .5);
+}
 .task-modal-container {
     position: fixed;
     width: 100vw;
